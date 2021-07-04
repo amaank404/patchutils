@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "patchutils"
+version = "1.0.0"
+description = "A simple utility for working with patches on strings"
+authors = ["xcodz-dot <71920621+xcodz-dot@users.noreply.github.com>"]
+license = "MIT License"
+packages = [
+    { include = "patchutils.py" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
