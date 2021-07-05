@@ -28,7 +28,9 @@ pdoc patchutils -o docs --html
 cd docs
 python -m http.server
 </code></pre>
-<p>now go to <code>http://localhost:8000/patchutils.html</code></p>
+<p>now go to <code>http://localhost:8000/patchutils.html</code> to view api documentation.
+To understand concept and what is this library all about please visit project
+homepage and read the <code>README.md</code> at <a href="https://github.com/xcodz-dot/patchutils">this link</a>.</p>
 <details class="source">
 <summary>
 <span>Expand source code</span>
@@ -43,7 +45,9 @@ cd docs
 python -m http.server
 ```
 
-now go to `http://localhost:8000/patchutils.html`
+now go to `http://localhost:8000/patchutils.html` to view api documentation.
+To understand concept and what is this library all about please visit project
+homepage and read the `README.md` at [this link](https://github.com/xcodz-dot/patchutils).
 &#34;&#34;&#34;
 
 import difflib
@@ -75,9 +79,9 @@ def create_info_from_directory(dir: str) -&gt; dict:
             &#34;folder2/another_folder&#34;,
             &#34;empty_folder&#34;
         ],
-        &#34;hash&#34; {
-            &#34;my_file_1.txt&#34;: &#34;blablablablbalbalblblablblblblblblbl some sha hash blahblabla&#34;
-            &#34;folder1/myfile2.txt&#34;: &#34;blablablablablablablablablabla hash is in a hexdigest format&#34;
+        &#34;hash&#34;: {
+            &#34;my_file_1.txt&#34;: &#34;blablablablbalbalblblablblblblblblbl some sha hash blahblabla&#34;,
+            &#34;folder1/myfile2.txt&#34;: &#34;blablablablablablablablablabla hash is in a hexdigest format&#34;,
             &#34;folder2/another_folder/myfile3.txt&#34;: &#34;blablablablbalbalblablg7ty913griubkeda&#34;
         }
     }
@@ -356,9 +360,9 @@ calculated for all files.</p>
         &quot;folder2/another_folder&quot;,
         &quot;empty_folder&quot;
     ],
-    &quot;hash&quot; {
-        &quot;my_file_1.txt&quot;: &quot;blablablablbalbalblblablblblblblblbl some sha hash blahblabla&quot;
-        &quot;folder1/myfile2.txt&quot;: &quot;blablablablablablablablablabla hash is in a hexdigest format&quot;
+    &quot;hash&quot;: {
+        &quot;my_file_1.txt&quot;: &quot;blablablablbalbalblblablblblblblblbl some sha hash blahblabla&quot;,
+        &quot;folder1/myfile2.txt&quot;: &quot;blablablablablablablablablabla hash is in a hexdigest format&quot;,
         &quot;folder2/another_folder/myfile3.txt&quot;: &quot;blablablablbalbalblablg7ty913griubkeda&quot;
     }
 }
@@ -387,9 +391,9 @@ calculated for all files.</p>
             &#34;folder2/another_folder&#34;,
             &#34;empty_folder&#34;
         ],
-        &#34;hash&#34; {
-            &#34;my_file_1.txt&#34;: &#34;blablablablbalbalblblablblblblblblbl some sha hash blahblabla&#34;
-            &#34;folder1/myfile2.txt&#34;: &#34;blablablablablablablablablabla hash is in a hexdigest format&#34;
+        &#34;hash&#34;: {
+            &#34;my_file_1.txt&#34;: &#34;blablablablbalbalblblablblblblblblbl some sha hash blahblabla&#34;,
+            &#34;folder1/myfile2.txt&#34;: &#34;blablablablablablablablablabla hash is in a hexdigest format&#34;,
             &#34;folder2/another_folder/myfile3.txt&#34;: &#34;blablablablbalbalblablg7ty913griubkeda&#34;
         }
     }
