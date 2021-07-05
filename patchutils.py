@@ -8,7 +8,9 @@ cd docs
 python -m http.server
 ```
 
-now go to `http://localhost:8000/patchutils.html`
+now go to `http://localhost:8000/patchutils.html` to view api documentation.
+To understand concept and what is this library all about please visit project
+homepage and read the `README.md` at [this link](https://github.com/xcodz-dot/patchutils).
 """
 
 import difflib
