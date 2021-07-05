@@ -129,7 +129,7 @@ updates:
   information.
 * Server creates an uncompressed update file and starts streaming it to the client **OR** alternatively
   server sends the patch in json format and client starts querying the server for different files listed
-  in the patch and creates applies the patch.
+  in the patch and applies the patch to required positions.
 * If the client recieved the update file instead of patch information then the client applies the update
   file to the required positions.
 
