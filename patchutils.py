@@ -1,3 +1,16 @@
+"""
+Use pdoc to generate documentation:
+
+```bash
+pip install pdoc3
+pdoc patchutils -o docs --html
+cd docs
+python -m http.server
+```
+
+now go to `http://localhost:8000/patchutils.html`
+"""
+
 import difflib
 import hashlib
 import os
