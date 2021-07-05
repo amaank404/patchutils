@@ -42,9 +42,9 @@ def create_info_from_directory(dir: str) -> dict:
             "folder2/another_folder",
             "empty_folder"
         ],
-        "hash" {
-            "my_file_1.txt": "blablablablbalbalblblablblblblblblbl some sha hash blahblabla"
-            "folder1/myfile2.txt": "blablablablablablablablablabla hash is in a hexdigest format"
+        "hash": {
+            "my_file_1.txt": "blablablablbalbalblblablblblblblblbl some sha hash blahblabla",
+            "folder1/myfile2.txt": "blablablablablablablablablabla hash is in a hexdigest format",
             "folder2/another_folder/myfile3.txt": "blablablablbalbalblablg7ty913griubkeda"
         }
     }
