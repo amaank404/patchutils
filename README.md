@@ -3,7 +3,7 @@
 patchutils provide utilities for making patches from directories and applying patches to directories.
 If you like the library and use it in your project, please consider giving us a star :star:
 
-Made with :heart: by [Contributers](https://github.com/xcodz-dot/patchutils/blob/master/AUTHORS.md/) and [xcodz-dot](https://github.com/xcodz-dot)
+Made with :heart: by [Contributers](https://github.com/xcodz-dot/patchutils/blob/master/AUTHORS.md/)
 
 ## Usage
 
