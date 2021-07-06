@@ -1,9 +1,11 @@
 [tool.poetry]
 name = "patchutils"
-version = "1.0.0"
+version = "1.1.0"
 description = "A simple utility for working with patches on strings"
 authors = ["xcodz-dot <71920621+xcodz-dot@users.noreply.github.com>"]
 license = "MIT License"
+homepage = "https://github.com/xcodz-dot/patchutils"
+repository = "https://github.com/xcodz-dot/patchutils"
 packages = [
     { include = "patchutils.py" }
 ]
