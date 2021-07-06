@@ -129,9 +129,6 @@ def create_patch_from_info(info1: dict, info2: dict) -> dict:
 def merge_patches(patch1, patch2):
     """
     Merge two continous patches into 1 single patch by using common logic.
-
-    .. warning::
-        This function is prone to bugs and have not yet been thoroughly tested.
     """
     patch_info = copy.deepcopy(patch1)
     for x in patch2["files_added"]:
@@ -158,6 +155,11 @@ def merge_patches(patch1, patch2):
             if x not in patch_info['files_modified']:
                 patch_info['files_modified'].append(x)
             patch_info['hash'][x] = patch2['hash'][x]
+    patch_info['files_added'] = list(set(patch_info['files_added']))
+    patch_info['files_removed'] = list(set(patch_info['files_removed']))
+    patch_info['files_modified'] = list(set(patch_info['files_modified']))
+    patch_info['directories_added'] = list(set(patch_info['directories_added']))
+    patch_info['directories_removed'] = list(set(patch_info['directories_removed']))
     return patch_info
 
 
