@@ -1,6 +1,7 @@
 {
   "files": [
-    "AUTHORS.md"
+    "AUTHORS.md",
+    "README.md"
   ],
   "projectName": "patchutils",
   "projectOwner": "xcodz-dot",
@@ -8,18 +9,6 @@
   "repoHost": "https://github.com",
   "skipCi": true,
   "contributors": [
-    {
-      "login": "xcodz-dot",
-      "name": "xcodz-dot",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71920621?v=4",
-      "profile": "https://xcodz-dot.github.io/",
-      "contributions": [
-        "infra",
-        "doc",
-        "code",
-        "maintenance"
-      ]
-    }
   ],
   "contributorsPerLine": 7
 }

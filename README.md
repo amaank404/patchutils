@@ -141,3 +141,8 @@ look like this:
   directory information.
 * *And from this point on the process of updating is same as in above example*
 
+## Contributers
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
