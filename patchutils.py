@@ -13,7 +13,6 @@ To understand concept and what is this library all about please visit project
 homepage and read the `README.md` at [this link](https://github.com/xcodz-dot/patchutils).
 """
 
-import difflib
 import hashlib
 import os
 import zipfile
