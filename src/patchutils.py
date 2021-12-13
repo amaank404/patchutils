@@ -92,8 +92,8 @@ def create_patch_from_info(info1: dict, info2: dict) -> dict:
     }
     ```
     """
-    difference_of_files = list(set(info1['files']).difference(set(info2['files'])))
-    difference_of_directories = list(set(info1['directories']).difference(set(info2['directories'])))
+    difference_of_files = list(set(info1['files']).symmetric_difference(set(info2['files'])))
+    difference_of_directories = list(set(info1['directories']).symmetric_difference(set(info2['directories'])))
     patch_info = {
         "files_added": [],
         "files_removed": [],
