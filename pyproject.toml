@@ -1,20 +1,26 @@
 [tool.poetry]
 name = "patchutils"
-version = "1.1.1"
-description = "A simple utility for working with patches on strings"
+version = "1.1.2"
+description = "Work on patches based on files and directories"
 authors = ["xcodz-dot <71920621+xcodz-dot@users.noreply.github.com>"]
 license = "LGPL-2.1 License"
 homepage = "https://github.com/xcodz-dot/patchutils"
 repository = "https://github.com/xcodz-dot/patchutils"
 packages = [
-    { include = "patchutils.py" }
+    { include = "patchutils.py", from = "src" },
+    { include = "patchutils_cli.py", from = "src"}
 ]
+readme="README.md"
+
 
 [tool.poetry.dependencies]
 python = "^3.6"
 PyGithub = "^1.55"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+patchutils = "patchutils_cli:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
