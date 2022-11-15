@@ -3,7 +3,7 @@
 patchutils provide utilities for making patches from directories and applying patches to directories.
 If you like the library and use it in your project, please consider giving us a star :star:
 
-Made with :heart: by [Contributers](https://github.com/xcodz-dot/patchutils/blob/master/AUTHORS.md/)
+Made with :heart: by Contributers
 
 ## Usage
 
@@ -140,19 +140,3 @@ look like this:
 * Server creates a patch using client provided directory information and latest server
   directory information.
 * *And from this point on the process of updating is same as in above example*
-
-## Contributers
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://xcodz-dot.github.io/"><img src="https://avatars.githubusercontent.com/u/71920621?v=4?s=100" width="100px;" alt=""/><br /><sub><b>xcodz-dot</b></sub></a><br /><a href="https://github.com/xcodz-dot/patchutils/commits?author=xcodz-dot" title="Code">💻</a> <a href="https://github.com/xcodz-dot/patchutils/commits?author=xcodz-dot" title="Documentation">📖</a> <a href="#infra-xcodz-dot" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/xcodz-dot/patchutils/commits?author=xcodz-dot" title="Tests">⚠️</a> <a href="#maintenance-xcodz-dot" title="Maintenance">🚧</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
